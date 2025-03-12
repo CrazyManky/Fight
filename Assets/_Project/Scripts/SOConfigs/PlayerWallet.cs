@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace _Project.Screpts.SOConfigs
+namespace _Project.Scripts.SOConfigs
 {
     [CreateAssetMenu(fileName = "PlayerWallet", menuName = "SOConfigs/PlayerWallet")]
     public class PlayerWallet : ScriptableObject
