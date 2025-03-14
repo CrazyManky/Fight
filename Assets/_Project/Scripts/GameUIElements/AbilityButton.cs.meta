@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a8cc79f05aac512488b6cacc7ae98254
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _imageButton: {instanceID: 0}
+  - _readySprite: {fileID: 21300000, guid: 7b75fc169b4bae240ae8784af0543250, type: 3}
+  - _delaySprite: {fileID: 21300000, guid: 4ce943462389a6f4ab9e3ff26fb1906d, type: 3}
+  - _slider: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

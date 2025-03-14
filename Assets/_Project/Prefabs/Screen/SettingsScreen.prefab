@@ -2144,6 +2144,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Header
       objectReference: {fileID: 0}
+    - target: {fileID: 7042944256034372030, guid: 94cc072d1e89af6479730c312aef445c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042944256034372030, guid: 94cc072d1e89af6479730c312aef445c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042944256034372030, guid: 94cc072d1e89af6479730c312aef445c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2848712173578178356}
+    - target: {fileID: 7042944256034372030, guid: 94cc072d1e89af6479730c312aef445c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042944256034372030, guid: 94cc072d1e89af6479730c312aef445c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "\u0421lose"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042944256034372030, guid: 94cc072d1e89af6479730c312aef445c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: _Project.Scripts.GameUI.Settings.SettingsView, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042944256034372030, guid: 94cc072d1e89af6479730c312aef445c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8281562808900822553, guid: 94cc072d1e89af6479730c312aef445c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

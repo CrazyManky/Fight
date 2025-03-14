@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd69cbdd86436b449dbdffd52c86006, type: 3}
+  m_Name: CharactersConfig
+  m_EditorClassIdentifier: 
+  _characters:
+  - ID: 0
+    NameItem: Green
+    CharacterPrefab: {fileID: 4700684366178690102, guid: 6384b13fca056ea40b89c87f6635da52, type: 3}
+    SpriteCharacter: {fileID: 21300000, guid: f0b4381d2c4875e47a6961a1ea7b8064, type: 3}
+    IsBuy: 1
+    Price: 5000
+  - ID: 1
+    NameItem: Blue
+    CharacterPrefab: {fileID: 0}
+    SpriteCharacter: {fileID: 21300000, guid: e88637f606f7b0842ac673e015b3da74, type: 3}
+    IsBuy: 0
+    Price: 5000
+  - ID: 2
+    NameItem: Red
+    CharacterPrefab: {fileID: 752631424371041775, guid: ff9499dcc88cfef4fa8c458953438260, type: 3}
+    SpriteCharacter: {fileID: 21300000, guid: 0a62a727bf73f8f47af0040380939335, type: 3}
+    IsBuy: 0
+    Price: 5000
+  ActiveCharacter:
+    ID: 0
+    NameItem: Green
+    CharacterPrefab: {fileID: 4700684366178690102, guid: 6384b13fca056ea40b89c87f6635da52, type: 3}
+    SpriteCharacter: {fileID: 21300000, guid: f0b4381d2c4875e47a6961a1ea7b8064, type: 3}
+    IsBuy: 0
+    Price: 5000

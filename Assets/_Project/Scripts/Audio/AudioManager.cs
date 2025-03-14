@@ -1,4 +1,3 @@
-using System;
 using _Project.Screpts.Services;
 using _Project.Scripts.SOConfigs;
 using UnityEngine;
@@ -10,7 +9,6 @@ namespace _Project.Scripts.Audio
         [SerializeField] private SoundConfig soundConfig;
         [SerializeField] private AudioSource _buttonClickListener;
         [SerializeField] private AudioSource _gameSound;
-        [SerializeField] private AudioSource _menuMusic;
 
         private bool _plaingMenu = false;
         private bool _plaingGame = false;
@@ -30,33 +28,14 @@ namespace _Project.Scripts.Audio
 
         public void PlayGame()
         {
-            if (_plaingGame)
-            {
-                _menuMusic.Stop();
-                _plaingMenu = false;
-                return;
-            }
-
-            _plaingGame = true;
-            _plaingMenu = false;
-            _menuMusic.Stop();
             _gameSound.Play();
         }
 
-        public void PlayMenu()
+        public void GameSoundStop()
         {
-            if (_plaingMenu)
-            {
-                _plaingGame = false;
-                _gameSound.Stop();
-                return;
-            }
-
-            _plaingMenu = true;
-            _plaingGame = false;
             _gameSound.Stop();
-            _menuMusic.Play();
         }
+
 
         private void SetSoundData()
         {
@@ -69,15 +48,9 @@ namespace _Project.Scripts.Audio
         private void SetDataMusic()
         {
             if (soundConfig.VolumeMusic)
-            {
-                _menuMusic.volume = 1;
                 _gameSound.volume = 1;
-            }
             else
-            {
                 _gameSound.volume = 0;
-                _menuMusic.volume = 0;
-            }
         }
 
         private void Update()
